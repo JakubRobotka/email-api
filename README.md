@@ -7,7 +7,7 @@ Api to optimaze html for email
 ## Config
 Key for custom optimalization is config
 For example
-```
+```js
 config: {
     inlineCss: {
         ...
@@ -23,7 +23,7 @@ config: {
 Settings for overriding default config for inlining css
 
 ##### Default
-```
+```js
 inlineCSS: {
     enabled: true,
     styleToAttribute: {
@@ -44,7 +44,7 @@ inlineCSS: {
 Seeings for removing unused styles and others attributes
 
 ##### Default
-```
+```js
 cleanup: {
     removeUnusedCSS: {
         enabled: true,
@@ -58,12 +58,12 @@ cleanup: {
 Define a base URL that will be prepended to all image sources in your email
 
 For example: 
-```
+```js
 baseImageURL: 'https://cdn.example.com',
 ```
 
 ##### Default
-```
+```js
 baseImageURL: '',
 ```
 ### applyExtraAttributes
@@ -74,7 +74,7 @@ Useful for:
 - automating email accessibility
 
 For example add default width to all wrapper tables.
-```
+```js
 applyExtraAttributes: {
   'table.wrapper': {
     width: 600
@@ -82,7 +82,7 @@ applyExtraAttributes: {
 },
 ```
 ##### Default
-```
+```js
 applyExtraAttributes: {
     table: {
         cellpadding: 0,
@@ -104,7 +104,7 @@ OCD: applies several formatting actions
 - normalizes whitepsace before code comments
 
 ##### Default
-```
+```js
 prettify: {
     enabled: false,
     indent_inner_html: false,
