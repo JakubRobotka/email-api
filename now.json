@@ -1,0 +1,20 @@
+{
+    "version": 2,
+    "name": "email-api",
+    "scope": "jakub.robotka@gmail.com",
+    "builds": [
+        {
+            "src": "api/*.js",
+            "use": "@now/node",
+            "config": {
+                "maxLambdaSize": "40mb"
+            }
+        }
+    ],
+    "routes": [
+        {
+            "src": "/api/(.*)",
+            "dest": "/api/$1"
+        }
+    ]
+}

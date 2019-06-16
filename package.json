@@ -1,0 +1,26 @@
+{
+  "name": "email-api",
+  "version": "1.0.0",
+  "description": "Api to optimaze html for email",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakubRobotka/email-api.git"
+  },
+  "author": "Jakub Robotka",
+  "license": "ISC",
+  "homepage": "https://github.com/JakubRobotka/email-api#readme",
+  "dependencies": {
+    "color-shorthand-hex-to-six-digit": "^2.10.24",
+    "deepmerge": "^3.2.1",
+    "email-comb": "^3.0.2",
+    "html-minifier": "^4.0.0",
+    "is-url-superb": "^3.0.0",
+    "juice": "^5.2.0",
+    "pretty": "^2.0.0",
+    "query-string": "^6.7.0"
+  }
+}
