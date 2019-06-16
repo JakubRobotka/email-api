@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/JakubRobotka/email-api.git"
   },
-  "author": "Jakub Robotka",
+  "author": "jakub.robotka@gmail.com",
   "license": "ISC",
   "homepage": "https://github.com/JakubRobotka/email-api#readme",
   "dependencies": {
