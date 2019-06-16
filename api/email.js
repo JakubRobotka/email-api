@@ -3,7 +3,7 @@ const Transformers = require('./../transformers');
 module.exports = async (req, res) => {
     const { query } = parse(req.url, true);
 
-    let html = await Transformers.process(query.html = '', JSON.parse(query.config) = {}, query.env = 'prod');
+    let html = await Transformers.process(query.html = '', query.config = {}, query.env = '');
 
     res.end(JSON.stringify(html));
 }
