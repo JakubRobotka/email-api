@@ -14,8 +14,6 @@ const deepmerge = require('deepmerge');
 
 exports.process = async (html, config, env) => {
 
-    console.log(config)
-
     config = await deepmerge(defaultConfig, config);
     html = await inline(html, config);
     html = await removeUnusedCss(html, config);
